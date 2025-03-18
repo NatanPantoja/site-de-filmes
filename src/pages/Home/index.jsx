@@ -20,7 +20,7 @@ function Home() {
             })
 
             // console.log(response.data.results.slice(0, 10)); // usando o "slice" ele limita ate qual filme vou querer.
-            setFilmes(response.data.results.slice(0, 10))
+            setFilmes(response.data.results.slice(0, 20))
         }
 
         loadFilmes();

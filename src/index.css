@@ -9,9 +9,10 @@ body {
 }
 
 .app {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  place-items: center;
+
+
 }
